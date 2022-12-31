@@ -20,10 +20,6 @@ def page_summary_body():
         f"* The available dataset contains 4208 cherry leaf images, of which 2104 are healthy, and the rest, 2104, "
         f" have powdery mildew."
         f" ")
-
-    st.write(
-        f"* For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/HaimanotA/Instant-Mildew-Detector#README.md).")
    
 
     st.success(
