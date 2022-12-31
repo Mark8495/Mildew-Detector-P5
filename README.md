@@ -50,6 +50,10 @@ This page gives general information, the project dataset summary and the client'
 
 ![streamlit cover](documentation/project_summary.png)
 
+* Cherry Leaf Visualizer 
+
+This page shows data visualization on three aspects.  The user can select either of the three check boxes at a time.
+
 
 ## Unfixed Bugs
 * There are no unfixed bugs in this project.
