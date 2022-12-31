@@ -60,6 +60,17 @@ This page shows data visualization on three aspects.  The user can select either
 
 The first check box visualizes the "mean" and "standard deviation" images for powdery mildew contained and healthy leaf. 
 
+![streamlit cover]
+![streamlit cover]
+
+2. The difference between average powdery mildew and healthy leaves.
+
+This checkbox displays an example of an average leaf containing powdery mildew, an average healthy leaf and a different image. 
+
+
+![streamlit cover]
+
+
 ## Unfixed Bugs
 * There are no unfixed bugs in this project.
 * Limitations of the frameworks: The Model History plot showing the accuracy and losses of the model appears to be overfitted. This may be due to a lack of sufficient data for training..
