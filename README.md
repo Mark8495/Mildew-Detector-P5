@@ -48,6 +48,8 @@ This application has five main sections. These sections are
 
 This page gives general information, the project dataset summary and the client's requirements.
 
+![streamlit cover](documentation/project_summary.png)
+
 
 ## Unfixed Bugs
 * There are no unfixed bugs in this project.
