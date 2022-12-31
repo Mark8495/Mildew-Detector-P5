@@ -54,6 +54,11 @@ This page gives general information, the project dataset summary and the client'
 
 This page shows data visualization on three aspects.  The user can select either of the three check boxes at a time.
 
+![streamlit cover]
+
+1. Difference between average and variability image
+
+The first check box visualizes the "mean" and "standard deviation" images for powdery mildew contained and healthy leaf. 
 
 ## Unfixed Bugs
 * There are no unfixed bugs in this project.
