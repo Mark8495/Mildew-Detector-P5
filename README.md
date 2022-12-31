@@ -70,7 +70,21 @@ This checkbox displays an example of an average leaf containing powdery mildew, 
 
 ![streamlit cover]
 
+3. An image montage for powdery mildew or healthy leaves.
 
+ In the image montage check box the user is expected to choose a label between healthy or powdery mildew to create a montage of random pre labelled images. every time we click the image montage button it generates a new montage of random images. 
+
+![streamlit cover]
+![streamlit cover]
+
+
+**3. Mildew Detection**
+
+This page contains 
+
+* a link to download a set of cherry leaf images for live prediction (you may use the Kaggle repository that was provided to you).
+
+* listing of the findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew
 ## Unfixed Bugs
 * There are no unfixed bugs in this project.
 * Limitations of the frameworks: The Model History plot showing the accuracy and losses of the model appears to be overfitted. This may be due to a lack of sufficient data for training..
