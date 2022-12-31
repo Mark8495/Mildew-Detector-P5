@@ -35,7 +35,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 * Business Requirement 2:
 
-    * As a client I want to predict if a given cherry leaf is a healthy or contains powdery mildew.
+    * As a client I want to predict if a given cherry leaf is a healthy or contains mildew.
     * As a client I want to build a ML model and generate reports.
 
 
