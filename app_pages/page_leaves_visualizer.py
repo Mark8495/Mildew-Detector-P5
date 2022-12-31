@@ -12,7 +12,7 @@ import random
 def page_leaves_visualizer_body():
     st.write("### Cherry Leaf Visualizer")
     st.info(
-        f"* The client is interested in having a study to visually differentiate "
+        f"* The client wants to conduct a study to visually differentiate "
         f"a healthy and powdery mildew cherry leaf.")
     
     version = 'v1'
