@@ -54,28 +54,28 @@ This page gives general information, the project dataset summary and the client'
 
 This page shows data visualization on three aspects.  The user can select either of the three check boxes at a time.
 
-![streamlit visualiser]
+![streamlit visualiser](documentation/leaf_visualizer.png)
 
 1. Difference between average and variability image
 
 The first check box visualizes the "mean" and "standard deviation" images for powdery mildew contained and healthy leaf. 
 
-![streamlit cover   ]
-![streamlit cover]
+![streamlit average and variability](documentation/diff_average.png)
+
 
 2. The difference between average powdery mildew and healthy leaves.
 
 This checkbox displays an example of an average leaf containing powdery mildew, an average healthy leaf and a different image. 
 
 
-![streamlit cover]
+![streamlit difference between average](documentation/diff_between_average.png)
 
 3. An image montage for powdery mildew or healthy leaves.
 
  In the image montage check box the user is expected to choose a label between healthy or powdery mildew to create a montage of random pre labelled images. every time we click the image montage button it generates a new montage of random images. 
 
-![streamlit cover]
-![streamlit cover]
+![streamlit montage healthy](documentation/image_montage_healthy.png)
+![streamlit montage infected](documentation/image_montage_powder.png)
 
 
 **3. Mildew Detection**
@@ -85,6 +85,53 @@ This page contains
 * a link to download a set of cherry leaf images for live prediction (you may use the Kaggle repository that was provided to you).
 
 * listing of the findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew
+
+![streamlit mildew detector](documentation/mildew_detector.png)
+
+* A user interface with a file uploader. The user can add images to the detector. Each image will display a prediction whether the image contains a healthy leaf or infected with powdery mildew.
+
+If the user uploads an image of an infected leaf it will look like this.
+
+![streamlit detector unhealthy](documentation/mildew_detector_infected.png)
+![streamlit detector unhealthy data](documentation/detector_infected_data.png)
+
+If the user uploads an image that contains a healthy iamge will look like this.
+![streamlit detector healthy](documentation/mildew_detector_healthy.png)
+![streamlit detector healthy data](documentation/detector_healthy_data.png)
+
+**4. Project Hypothesis** 
+
+This page shows the project hypothesis and how it is validated across the project.
+
+![streamlit project hypothesis](/documentation/project_hypothesis.png)
+
+ **5. Model performance Metrics**
+
+This is a technical page which displays the model performance and it contains three plots.
+
+1. Train, Validation and Test Set: Labels Frequencies
+
+![streamlit train and test set](/documentation/train_test_set.png)
+
+Out of the total 4208 datasets, 
+ * The train set ratio is 0.7.
+    * train - healthy: 1472 images. 
+    * train - powdery_mildew: 1472 images
+ * The validation set ratio is 0.1.
+    * validation - healthy: 210 images
+    * validation - powdery_mildew: 210 images
+ * The test set ratio is 0.2. 
+    * test - healthy: 422 images
+    * test - powdery_mildew: 422 images
+
+2. Model History
+
+![streamlit model history](/documentation/model_history_and_performance.png)
+
+The agreed degree of accuracy criteria for the performance goal of the predictions with the client 
+is a degree of 97% accuracy. The generalized performance on the Test set for the 'Instant Mildew Detector' app is 98%. 
+
+
 ## Unfixed Bugs
 * There are no unfixed bugs in this project.
 * Limitations of the frameworks: The Model History plot showing the accuracy and losses of the model appears to be overfitted. This may be due to a lack of sufficient data for training..
@@ -131,5 +178,5 @@ similar to the walkthrough project 1.
 - The cherry leave images dataset are taken from [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves).
 
 
-## Acknowledgements (optional)
+## Acknowledgements 
 * Thank you to the people at code institute and in the slack who have been an increidble resource throughout my time working on this project.
