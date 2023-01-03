@@ -48,19 +48,19 @@ This application has five main sections. These sections are
 
 This page gives general information, the project dataset summary and the client's requirements.
 
-![streamlit cover](documentation/project_summary.png)
+![streamlit dashboard](documentation/project_summary.png)
 
 * Cherry Leaf Visualizer 
 
 This page shows data visualization on three aspects.  The user can select either of the three check boxes at a time.
 
-![streamlit cover]
+![streamlit visualiser]
 
 1. Difference between average and variability image
 
 The first check box visualizes the "mean" and "standard deviation" images for powdery mildew contained and healthy leaf. 
 
-![streamlit cover]
+![streamlit cover   ]
 ![streamlit cover]
 
 2. The difference between average powdery mildew and healthy leaves.
